@@ -1,5 +1,3 @@
-# 2023-07-18 review source code
-
 from datetime import datetime, timedelta
 from copy import deepcopy
 import requests
