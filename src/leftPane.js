@@ -3,7 +3,7 @@ import React from 'react';
 import SlidingPane from 'react-sliding-pane';
 import publishingPage from './publishingPage';
 
-const LeftPane = ({ isOpen, handleClosePane, 
+const leftPane = ({ isOpen, handleClosePane, 
   clickedChargerId, showChart, clickedChargerName, clickedMnfacrName, clickedModelName}) => {
 
   return (
@@ -25,4 +25,4 @@ const LeftPane = ({ isOpen, handleClosePane,
   );
 }
 
-export default LeftPane;
+export default leftPane;
