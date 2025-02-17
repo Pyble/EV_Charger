@@ -1,7 +1,7 @@
 // leftPane 으로 export
 import React from 'react';
 
-const PublishingPage = ({ showChart, charger_name, charger_id, mnfacr_name, model_name }) => {
+const publishingPage = ({ showChart, charger_name, charger_id, mnfacr_name, model_name }) => {
 
   return(
   <div>
@@ -16,4 +16,4 @@ const PublishingPage = ({ showChart, charger_name, charger_id, mnfacr_name, mode
   </div>
 );
 };
-export default PublishingPage;
+export default publishingPage;
