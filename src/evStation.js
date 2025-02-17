@@ -5,7 +5,7 @@ import { InteractiveMap } from 'react-map-gl';
 import { ColumnLayer, IconLayer, PathLayer } from '@deck.gl/layers';
 import 'react-sliding-pane/dist/react-sliding-pane.css';
 import { LinearInterpolator } from '@deck.gl/core';
-import './evstation.css';
+import './evStation.css';
 import searchTerms from './searchTerms';
 import rightPane from './rightPane';
 import leftPane from './leftPane';
