@@ -1,4 +1,4 @@
-// LeftPane 으로 export
+// leftPane 으로 export
 import React from 'react';
 
 const PublishingPage = ({ showChart, charger_name, charger_id, mnfacr_name, model_name }) => {
