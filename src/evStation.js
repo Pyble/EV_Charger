@@ -7,11 +7,11 @@ import 'react-sliding-pane/dist/react-sliding-pane.css';
 import { LinearInterpolator } from '@deck.gl/core';
 import './evstation.css';
 import searchTerms from './searchTerms';
-import RightPane from './RightPane';
-import LeftPane from './LeftPane';
-import SearchFilterPane from './SearchFilterPane';
-import Tooltip from './ToolTip';
-import ButtonGroup from './ButtonGroup';
+import rightPane from './rightPane';
+import leftPane from './leftPane';
+import searchFilterPane from './searchFilterPane';
+import tooltip from './toolTip';
+import buttonGroup from './buttonGroup';
 
 MapboxGL.accessToken = '';
 
