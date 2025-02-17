@@ -1,7 +1,7 @@
 //publishing page export
 import React from 'react';
 import SlidingPane from 'react-sliding-pane';
-import PublishingPage from './PublishingPage';
+import publishingPage from './publishingPage';
 
 const LeftPane = ({ isOpen, handleClosePane, 
   clickedChargerId, showChart, clickedChargerName, clickedMnfacrName, clickedModelName}) => {
