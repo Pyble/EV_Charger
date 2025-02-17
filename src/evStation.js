@@ -3,8 +3,6 @@ import MapboxGL from 'mapbox-gl';
 import DeckGL from '@deck.gl/react';
 import { InteractiveMap } from 'react-map-gl';
 import { ColumnLayer, IconLayer, PathLayer } from '@deck.gl/layers';
-// import { GridLayer } from '@deck.gl/aggregation-layers';
-// import { ScatterplotLayer } from '@deck.gl/layers';
 import 'react-sliding-pane/dist/react-sliding-pane.css';
 import { LinearInterpolator } from '@deck.gl/core';
 import './evstation.css';
@@ -14,7 +12,6 @@ import LeftPane from './LeftPane';
 import SearchFilterPane from './SearchFilterPane';
 import Tooltip from './ToolTip';
 import ButtonGroup from './ButtonGroup';
-// import { useReducer } from 'react';
 
 MapboxGL.accessToken = '';
 
@@ -59,11 +56,9 @@ export default function Map() {
   const [hasZoomedIn, setHasZoomedIn] = useState(false);
   const [sortOrder, setSortOrder] = useState('asc');
   const [tooltipInfo, setTooltipInfo] = useState(null);
-  // const [mapStyle, setMapStyle] = useState('mapbox://styles/djangbogo/cli8sh8dd010d01po64z6hkyl');
   const [mapStyle] = useState('mapbox://styles/djangbogo/cli8sh8dd010d01po64z6hkyl');
   // eslint-disable-next-line
-  // const [theme, setTheme] = useState('');
-  // const [color, setColor] = useState('');
+
   const [theme] = useState('');
   const [color] = useState('');
   // eslint-disable-next-line
